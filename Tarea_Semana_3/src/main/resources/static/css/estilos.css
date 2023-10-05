@@ -1,0 +1,202 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 4, 2023, 11:51:32 AM
+    Author     : javie
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body{
+    font-family: sans-serif;
+    padding: 0px 0px 0;
+    background-color: white;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    pointer-events: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 90%;
+    background-color: #CCCCCC;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    margin-right: 18px;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display:  flex;
+    margin-left: auto;
+    list-style: none;
+    
+}
+
+.nav-menu-link{
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 90px;
+    width: max-content;
+    color: white;
+    text-decoration: none;
+}
+.nav-menu-item{
+    color:white;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 60px;
+    margin-left: 30px;
+}
+a{
+   text-decoration: none; 
+   color: white;
+}
+
+.oferta{
+    display: flex;
+    align-items: center;
+    text-align: center;  
+}
+
+
+.oferta-img{
+    height: 600px;
+    margin-left: 275px;
+    width: 700px;
+    margin-top: 05px;
+}
+
+.descripcion {
+    margin-bottom: 100px;
+    color: grey;
+    margin-left: 50px;
+}
+
+.mapa{
+    margin-left: 325px;
+    margin-bottom: 30px;
+}
+
+.ubicacion{
+    text-align: center;
+    color: grey;
+    margin-left: 45px; 
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: #0099FF;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+    margin-left: 250px;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00C3FF;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;    
+}
+
+.footer-links ul li a:hover {
+    color: #FFFFFF;
+    padding-left: 6px;
+}
+
+.Video_carnes{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.video{
+    height: 400px;
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+.video_descripcion{
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.articulo_carne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articulo_carne figure {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.belleza_descripcion{
+    color: grey;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+.verduleria_descripcion{
+    color: grey;
+    margin-bottom: 10px;
+    margin-left: 410px;
+}
+
+.Nosotros_descripcion{
+    color: grey;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
